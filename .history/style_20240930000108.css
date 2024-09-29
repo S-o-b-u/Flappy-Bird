@@ -113,13 +113,11 @@ h4 {
 @media screen and (max-width: 479px) {
   h4 {
     margin-bottom: 0;
-    bottom: 2vh;
+    bottom: 1.9vh;
     left: -8px;
     font-size: 4vw;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
   .content {
     display: none;
@@ -136,4 +134,5 @@ h4 {
   p {
     font-size: 1.8vw;
   }
+  
 }
