@@ -77,7 +77,8 @@ h4 {
     text-align: center;
   }
   h1 {
-    
+    display: none;
+
     font-size: 25vw;
   }
   h2 {

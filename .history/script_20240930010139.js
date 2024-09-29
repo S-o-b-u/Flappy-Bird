@@ -8,8 +8,8 @@ let boardWidth, boardHeight;
 
 if (isMobile()) {
   // For mobile devices
-  boardWidth = window.innerWidth * 0.95; // Set canvas to 95% of the screen width
-  boardHeight = window.innerHeight * 0.85; // Set canvas to 85% of the screen height
+  boardWidth = window.innerWidth; // Set canvas to 95% of the screen width
+  boardHeight = window.innerHeight; // Set canvas to 85% of the screen height
 } else {
   // For desktop devices
   boardWidth = 360;  // Your original dimensions for desktop

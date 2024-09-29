@@ -1,20 +1,7 @@
 //board
 let board;
-function isMobile() {
-  return /Mobi|Android/i.test(navigator.userAgent);
-}
-
-let boardWidth, boardHeight;
-
-if (isMobile()) {
-  // For mobile devices
-  boardWidth = window.innerWidth * 0.95; // Set canvas to 95% of the screen width
-  boardHeight = window.innerHeight * 0.85; // Set canvas to 85% of the screen height
-} else {
-  // For desktop devices
-  boardWidth = 360;  // Your original dimensions for desktop
-  boardHeight = 640;
-}
+let boardWidth = 360;
+let boardHeight = 640;
 let context;
 
 //bird
@@ -140,7 +127,7 @@ function placePipes() {
     passed: false,
   };
   pipeArray.push(topPipe);
-  let openingSpace = pipeHeight / 2.8;
+  let openingSpace = pipeHeight / 2.;
   let bottomPipe = {
     img: bottomPipeImg,
     x: pipeX,
