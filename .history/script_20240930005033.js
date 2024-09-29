@@ -127,7 +127,7 @@ function placePipes() {
     passed: false,
   };
   pipeArray.push(topPipe);
-  let openingSpace = pipeHeight / 2.8;
+  let openingSpace = pipeHeight / 1;
   let bottomPipe = {
     img: bottomPipeImg,
     x: pipeX,
