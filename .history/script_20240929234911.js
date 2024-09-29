@@ -127,7 +127,7 @@ function placePipes() {
     passed: false,
   };
   pipeArray.push(topPipe);
-  let openingSpace = pipeHeight / 3;
+  let openingSpace = pipeHeight / 4;
   let bottomPipe = {
     img: bottomPipeImg,
     x: pipeX,
@@ -141,7 +141,7 @@ function placePipes() {
 
 function moveBird(e) {
   if (e.code == "Space" || e.code == "ArrowUp") {
-    velocityY = -5;
+    velocityY = -6;
     if(gameOver){
       bird.y = birdY;
       pipeArray = [];
