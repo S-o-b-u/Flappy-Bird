@@ -100,8 +100,8 @@ h4 {
 
 }
 
-@media screen and (max-width: 360px) {
-  /* h4 {
+/* @media screen and (max-width: 479px) {
+  h4 {
     margin-bottom: 0;
     bottom: 2vh;
     left: -8px;
@@ -110,11 +110,11 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+  }
   .content {
     display: none;
   }
-}
+} */
 
 @media screen and (orientation: landscape) {
   h1 {
