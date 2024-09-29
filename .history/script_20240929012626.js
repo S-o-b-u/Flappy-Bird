@@ -1,0 +1,23 @@
+//board
+let board
+let boardWidth = 360;
+let boardHeight = 640;
+let context;
+
+let birdWidth = 34;
+let birdHeight = 24;
+let birdX = boardWidth/8;
+let birdY = boardHeight/2; 
+
+//bord object 
+let bird {
+x:birdX,
+
+}
+window.onload = ()=>{
+    board = document.getElementById("board")
+    board.width = boardWidth;
+    board.height = boardHeight;
+context = board.getContext("2d");
+}
+

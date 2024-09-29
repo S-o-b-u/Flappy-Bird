@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, system-ui;
+}
+body,
+html {
+  overflow: hidden;
+  background-color: #111;
+}
+#board {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* background-color: skyblue; */
+  background-image: url(./flappybirdbg.png);
+}
+h4{
+    position: absolute;
+    color: aliceblue;
+    font-weight: 300;
+    bottom: 1vw;
+    left: 1vw;
+}
+
+
+@media screen and (max-width: 600px) {
+  .gallery {
+    column-count: 2;
+  }
+  #upload {
+    width: 100vw;
+  }
+  #upload input {
+    background-color: #829f82;
+    width: 60vw;
+    padding: 20px 30px;
+    border-radius: 50px;
+  }
+  .breathe-animation span {
+    font-size: 12vw;
+  }
+
+  .gallery {
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38vh;
+  }
+  .gallery-item img {
+    width: 40vw;
+    border-radius: 15px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .gallery {
+    column-count: 3;
+  }
+  #upload {
+    width: 100vw;
+  }
+  #upload input {
+    background-color: #829f82;
+    width: 60vw;
+    padding: 20px 30px;
+    border-radius: 50px;
+  }
+  .breathe-animation span {
+    font-size: 13vw;
+    /* top: 30vh; */
+  }
+  .gallery {
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 49vh;
+  }
+  .gallery-item img {
+    width: 30vw;
+    border-radius: 15px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .gallery {
+    column-count: 3;
+  }
+  #upload {
+    width: 100vw;
+  }
+  #upload input {
+    background-color: #829f82;
+    width: 60vw;
+    padding: 20px 30px;
+    border-radius: 50px;
+  }
+  .breathe-animation span {
+    font-size: 13vw;
+    
+  }
+  .gallery {
+    padding: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 48vh;
+  }
+  .gallery-item img {
+    width: 30vw;
+    border-radius: 15px;
+  }
+}
