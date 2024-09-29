@@ -110,7 +110,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 360px) {
   h4 {
     margin-bottom: 0;
     bottom: 2vh;
@@ -134,5 +134,7 @@ h4 {
   p {
     font-size: 1.8vw;
   }
-  
+  h4 {
+    font-size: vw;
+  }
 }
