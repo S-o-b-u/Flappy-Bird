@@ -149,7 +149,7 @@ function moveBird(e) {
       gameOver = false;
     }
   }else if (e.type === "touchstart" || e.type === "click") {
-    velocityY = -4;
+    velocityY = -5;
     if(gameOver){
       bird.y = birdY;
       pipeArray = [];

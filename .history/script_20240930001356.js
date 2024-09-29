@@ -141,7 +141,7 @@ function placePipes() {
 
 function moveBird(e) {
   if (e.code == "Space" || e.code == "ArrowUp") {
-    velocityY = -4;
+    velocityY = -5;
     if(gameOver){
       bird.y = birdY;
       pipeArray = [];
@@ -149,7 +149,7 @@ function moveBird(e) {
       gameOver = false;
     }
   }else if (e.type === "touchstart" || e.type === "click") {
-    velocityY = -4;
+    velocityY = -5;
     if(gameOver){
       bird.y = birdY;
       pipeArray = [];
