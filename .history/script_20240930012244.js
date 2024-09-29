@@ -71,7 +71,7 @@ window.onload = function () {
 
   // Load bird image
   birdImg = new Image();
-  birdImg.src = "./flappybird.png";
+  birdImg.src = "./bird.gif";
 
   // Add event listeners for bird movement
   document.addEventListener("keydown", moveBird);
@@ -185,7 +185,7 @@ function placePipes() {
 
 function moveBird(e) {
   if (e.code == "Space" || e.code == "ArrowUp") {
-    velocityY = -4;
+    velocityY = -3;
 
     if (gameOver) {
       resetGame();

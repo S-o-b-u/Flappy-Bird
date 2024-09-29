@@ -143,12 +143,9 @@ function update() {
   context.fillText(score, 30, 60);
 
   if (gameOver) {
-    // Center the "Game Over" text
     context.fillStyle = "white";
     context.font = "58px sans-serif";
-    let gameOverText = "Game Over";
-    let textWidth = context.measureText(gameOverText).width;
-    context.fillText(gameOverText, (boardWidth - textWidth) / 2, boardHeight / 2);
+    context.fillText("Game Over", 30, 330);
   }
 }
 
@@ -185,7 +182,7 @@ function placePipes() {
 
 function moveBird(e) {
   if (e.code == "Space" || e.code == "ArrowUp") {
-    velocityY = -4;
+    velocityY = -3;
 
     if (gameOver) {
       resetGame();

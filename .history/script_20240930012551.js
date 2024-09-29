@@ -2,7 +2,7 @@
 function isMobile() {
   return /Mobi|Android/i.test(navigator.userAgent);
 }
-
+const font = new FontFace('MyFont', 'url(/path/to/font.woff2)');
 let boardWidth, boardHeight;
 let birdWidth, birdHeight;
 let pipeWidth, pipeHeight;

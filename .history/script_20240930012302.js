@@ -185,7 +185,7 @@ function placePipes() {
 
 function moveBird(e) {
   if (e.code == "Space" || e.code == "ArrowUp") {
-    velocityY = -4;
+    velocityY = -3;
 
     if (gameOver) {
       resetGame();

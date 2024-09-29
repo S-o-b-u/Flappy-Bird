@@ -2,7 +2,7 @@
 function isMobile() {
   return /Mobi|Android/i.test(navigator.userAgent);
 }
-
+const font = new FontFace('MyFont', 'url(./FlappybirdyRegular-KaBW.ttf)');
 let boardWidth, boardHeight;
 let birdWidth, birdHeight;
 let pipeWidth, pipeHeight;
