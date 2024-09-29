@@ -83,8 +83,7 @@ h4 {
 @media screen and (max-width: 360px) {
   h4 {
     margin-bottom: 0;
-    bottom: 2vh;
-    left: -8px;
+    b
     font-size: 4vw;
     width: 100%;
     text-align: center;

@@ -103,7 +103,7 @@ while(pipeArray.length > 0 && pipeArray[0].x < -pipeWidth){
   // Set the fill style and font before calling fillText
   context.fillStyle = "white";
   context.font = "45px sans-serif";
-  context.fillText(score, 30, 60);
+  context.fillText(score, 20, 45);
   if(gameOver){
     context.fillStyle = "white";
     context.font = "58px sans-serif";
