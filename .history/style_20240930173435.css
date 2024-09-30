@@ -35,8 +35,6 @@ html {
 h1 {
   font-family: flappy;
   font-size: 10vw;
-  user-select: none;
-
 }
 
 p {

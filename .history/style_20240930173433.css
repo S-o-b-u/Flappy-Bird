@@ -35,16 +35,12 @@ html {
 h1 {
   font-family: flappy;
   font-size: 10vw;
-  user-select: none;
-
 }
 
 p {
   font-family: flappy;
   font-size: 2vw;
   width: 48%;
-  user-select: none;
-
 }
 
 h2 {
